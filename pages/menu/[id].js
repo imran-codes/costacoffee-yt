@@ -23,7 +23,7 @@ function DrinksInformation({ drinkResults }) {
 export default DrinksInformation;
 
 export async function getStaticPaths() {
-  const res = await fetch("http://localhost:3000/api/drinks");
+  const res = await fetch("https://costa-api.vercel.app/api/drinks");
   const drinkData = await res.json();
 
   const paths = drinkData.map((drink) => ({
@@ -39,7 +39,7 @@ export async function getStaticProps(context) {
   const id = context.params.id;
 
   const drinkResults = await fetch(
-    `http://localhost:3000/api/drinks/${id}`
+    `https://costa-api.vercel.app/api/drinks/${id}`
   ).then((res) => res.json());
 
   return {

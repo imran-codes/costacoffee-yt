@@ -18,7 +18,7 @@ export default function Home() {
       </MainBannerContainer>
       <br />
       <SplitBanner
-        image="https://images.ctfassets.net/royi30b2qd26/7ncsrwSotCVL9edl4cyGwc/10fe68170187118e95a473adee15d03c/cupid-cooler-696x512.jpg?w=700&h=515&q=100&fm=webp"
+        image="https://images.ctfassets.net/royi30b2qd26/3WFK4rnImMkGajmYouaTlk/259ed3b82fee6f1ab18b92382292922e/mar-22-hotcrossbun-bluewave-696x512-v2.jpg?w=696&h=512&q=100&fm=webp"
         alt="Cooler"
         heading="New Cupids Cooler. Love at first sip."
         subText="Try resisting the charms of our new limited-edition Cupid's Cooler. Sumptuous raspberry cooler, topped with a luxurious light dairy swirl, Belgium chocolate sauce and strawberry sprinkles. Irresistible. Order via Click & Collect with the app or pop in store until the 17th Feb only."

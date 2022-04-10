@@ -54,7 +54,7 @@ function Location({ storeResults }) {
 export default Location;
 
 export async function getServerSideProps(context) {
-  const storeResults = await fetch("http://localhost:3000/api/store").then(
+  const storeResults = await fetch("https://costa-api.vercel.app/api/store").then(
     (res) => res.json()
   );
   return {

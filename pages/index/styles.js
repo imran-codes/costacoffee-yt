@@ -16,7 +16,7 @@ export const HeroContent = styled.div`
 
 export const Terms = styled.p`
   padding: 30px;
-  text-align: left;
+  text-align: center;
   font-style: italic;
   font-size: 0.8rem;
   line-height: 20px;

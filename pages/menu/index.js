@@ -32,7 +32,7 @@ function Menu({ drinksResults }) {
 export default Menu;
 
 export async function getServerSideProps() {
-  const drinksResults = await fetch("http://localhost:3000/api/drinks").then(
+  const drinksResults = await fetch("https://costa-api.vercel.app/api/drinks").then(
     (res) => res.json()
   );
   return {
