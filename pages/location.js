@@ -7,7 +7,7 @@ import {
   MapContainer,
   SearchBarContainer,
   LeftSideContainer,
-} from "./location/styles";
+} from "../components/location/styles";
 import SearchIcon from "@mui/icons-material/Search";
 import Map from "../components/Map";
 

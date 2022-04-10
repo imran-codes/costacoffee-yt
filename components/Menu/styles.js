@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { MainBannerContainer, HeroContent } from "../index/styles";
+import { MainBannerContainer, HeroContent } from "../Homepage/styles";
 
 export const MenuBannerContainer = styled(MainBannerContainer)``;
 

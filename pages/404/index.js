@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Container, ImageContainer } from "./styles";
+import { Container, ImageContainer } from "../../components/404/styles";
 import NotFoundImage from "../../public/images/404.svg";
 import Header from "../../components/Header";
 

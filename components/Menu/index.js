@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import Header from "../../components/Header";
-import { MenuBannerContainer, MenuHeroContent } from "../../components/Homepage/styles";
+import Header from "../Header";
+import { MenuBannerContainer, MenuHeroContent } from "../Homepage/styles";
 import MenuHeroBanner from "../../public/images/all-menu-hero-image-34573cf8b49b15630eeec1893575ac8b.jpg";
-import DrinksResults from "../../components/DrinksResults";
+import DrinksResults from "../DrinksResults";
 
 function Menu({ drinksResults }) {
   return (

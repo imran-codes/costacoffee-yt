@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { Container, ImageContainer, TextContainer } from "./styles";
+import { Container, ImageContainer, TextContainer } from "../../components/Menu/styles";
 
 function DrinksInformation({ drinkResults }) {
   return (

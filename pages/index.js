@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Header from "../components/Header";
-import { MainBannerContainer, HeroContent, Terms } from "./index/styles";
+import { MainBannerContainer, HeroContent, Terms } from "../components/Homepage/styles";
 import HeroBanner from "../public/images/herobanner.jpg";
 import SplitBanner from "../components/SplitBanner";
 import Footer from "../components/Footer";
